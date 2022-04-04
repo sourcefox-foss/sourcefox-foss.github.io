@@ -1,11 +1,16 @@
+html {
+    font-size: 25px;
+    font-family: sans-serif;
+}
 body {
     color: RGB(255, 255, 255);
     background: RGB(10, 10, 10);
 }
 div {
     background: RGB(20, 20, 20);
-    margin: 0 0 0 50px;
-    padding: 20px 200px 0 50px;
+    margin: 0 0 0 5%;
+    width: 80%;
+    padding: 2% 5% 2% 5%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -15,22 +20,30 @@ ul {
     margin: 0;
     padding: 0;
 }
-
+/*
 ul > li {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
-
+*/
+.category {
+    font-size: 1.4rem;
+}
 ul > li > ul {
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
 ul > li > ul > li {
-    font-size: 16px;
+    font-size: 1rem;
     margin-right: 20px;
     display: inline;
 }
 
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: violet;
 }
