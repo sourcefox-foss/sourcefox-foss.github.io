@@ -47,3 +47,22 @@ a:link, a:visited, a:hover, a:active {
 a:hover {
     color: violet;
 }
+
+input[type=text] {
+    width
+    border: none;
+    background-color: gray;
+    color: black;
+}
+
+input[type=text] {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+    margin: auto 0;
+}
+
+input[type=submit] {
+    display: none;
+}
